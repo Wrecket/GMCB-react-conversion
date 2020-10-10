@@ -1,0 +1,10 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 1rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbar__banner {
+    overflow: hidden;
+}

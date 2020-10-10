@@ -1,0 +1,41 @@
+
+
+.recipe {
+    display: flex;
+    flex-wrap: wrap;
+    transition: 3s all;
+    background-image: url("https://images.pexels.com/photos/4040540/pexels-photo-4040540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+}
+
+.recipe__input {
+    width: 100% !important;
+    border: none;
+    box-shadow: 0 0 1px rgb(141, 108, 58);
+    padding: .5rem;
+}
+
+.recipe__inputs {
+    background-color: rgba(190, 162, 126, 0.342);
+    padding: 1.5rem;
+}
+
+.recipe__input-wrap-inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    width: 100%;
+    align-content: center;
+}
+
+.check {
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border: none;
+    opacity: 0.5;
+    transition: 1s all;
+}
+
+.check:hover {
+    opacity: 1;
+}

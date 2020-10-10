@@ -1,0 +1,13 @@
+.footer__box {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.664);
+    position: relative;
+}
+
+.footer__text {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;;
+    font-weight: bold;
+    color: white;
+}

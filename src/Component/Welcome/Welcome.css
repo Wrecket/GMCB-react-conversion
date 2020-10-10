@@ -1,0 +1,129 @@
+.welcome__title-box {
+    border-top: 2px solid rgb(153, 87, 26);
+    border-bottom: 2px solid rgb(153, 87, 26);
+    width: 95%;
+    margin: 2rem 3rem;
+}
+
+.welcome__title-box-bottom {
+    border-top: 2px solid rgb(153, 87, 26);
+    border-bottom: 2px solid rgb(153, 87, 26);
+    width: 95%;
+    height: 5rem;
+    margin: 2rem 3rem;
+    position: relative;
+}
+
+.welcome__description {
+    color: rgb(211, 165, 123);
+}
+
+.welcome__description-bottom {
+    color: rgb(211, 165, 123);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.welcome__menu-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+@media (max-width: 1588px) {
+    .welcome__menu-box-outer {
+        height: 20rem !important;
+        width: 20rem !important;
+    }
+    
+    .welcome__menu-box-inner {  
+        height: 18rem !important;
+        width: 18rem !important;
+    }
+}
+
+@media (max-width: 1086px) {
+    .welcome__menu-box-outer {
+        height: 16rem !important;
+        width: 16rem !important;
+    }
+    
+    .welcome__menu-box-inner {  
+        height: 14rem !important;
+        width: 14rem !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .welcome__menu-box-outer {
+        height: 12rem !important;
+        width: 12rem !important;
+    }
+    
+    .welcome__menu-box-inner {  
+        height: 10rem !important;
+        width: 10rem !important;
+    }
+
+    .welcome__menu-box-img-text {
+        position: absolute;
+        bottom: 0;
+        left: 1rem;
+        font-size: 2rem;
+        color: white;
+    }
+}
+
+@media (max-width: 550px) {
+    .welcome__menu-box-outer {
+        height: 16rem !important;
+        width: 16rem !important;
+        margin: .2rem 0 2rem 0 !important;
+    }
+    
+    .welcome__menu-box-inner {  
+        height: 14rem !important;
+        width: 14rem !important;
+    }
+
+    .welcome__menu-box-img-text {
+        position: absolute;
+        bottom: 0;
+        left: 1rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .welcome__title-box {
+        padding-left: 1rem!important;
+        width:100%;
+        margin: 2rem 0;
+    }
+    
+    .welcome__title-box-bottom {
+        width:100%;
+        margin: 2rem 0;
+        padding-left: 1rem!important;
+    }
+    
+    .welcome__description {
+        color: rgb(211, 165, 123);
+    }
+    
+    .welcome__description-bottom {
+        color: rgb(211, 165, 123);
+        position: absolute;
+        bottom: 1rem;
+        right: 0;
+        font-size: .8rem;
+        text-align: center;
+    }
+    .navbar__banner-img {
+        margin-top: 0 !important;
+    }
+}
+
+
+
