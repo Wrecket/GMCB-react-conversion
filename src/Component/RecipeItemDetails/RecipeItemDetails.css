@@ -4,6 +4,7 @@
     width: 100% !important;
     position: relative;
     padding: 1rem;
+    transition: 1s all;
 }
 
 .RecipeItemDetails-d {

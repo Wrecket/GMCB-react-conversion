@@ -9,6 +9,11 @@
     margin-right: 3rem;
     margin-top: 2rem;
     position: relative;
+    transition: 1s all;
+}
+
+.recipe__menu-box-outer:hover {
+   transform: scale(1.1); 
 }
 
 .recipe__tiny-logo {
