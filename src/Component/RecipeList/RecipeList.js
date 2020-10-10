@@ -21,7 +21,7 @@ class RecipeList extends React.Component {
     handleSearch = (e) => {
         e.preventDefault()
         this.setState({
-            searchInput: e.target.value
+            searchInput: e.target.value.toLowerCase()
         })
     }
 
