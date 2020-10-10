@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/GMCB-react-conversion/static/css/main.24747423.chunk.css",
+    "main.js": "/GMCB-react-conversion/static/js/main.73b2b591.chunk.js",
+    "main.js.map": "/GMCB-react-conversion/static/js/main.73b2b591.chunk.js.map",
+    "runtime-main.js": "/GMCB-react-conversion/static/js/runtime-main.01831299.js",
+    "runtime-main.js.map": "/GMCB-react-conversion/static/js/runtime-main.01831299.js.map",
+    "static/js/2.4fabb7c9.chunk.js": "/GMCB-react-conversion/static/js/2.4fabb7c9.chunk.js",
+    "static/js/2.4fabb7c9.chunk.js.map": "/GMCB-react-conversion/static/js/2.4fabb7c9.chunk.js.map",
+    "index.html": "/GMCB-react-conversion/index.html",
+    "precache-manifest.3f14808678d1e8fde93ff942026c440c.js": "/GMCB-react-conversion/precache-manifest.3f14808678d1e8fde93ff942026c440c.js",
+    "service-worker.js": "/GMCB-react-conversion/service-worker.js",
+    "static/css/main.24747423.chunk.css.map": "/GMCB-react-conversion/static/css/main.24747423.chunk.css.map",
+    "static/js/2.4fabb7c9.chunk.js.LICENSE.txt": "/GMCB-react-conversion/static/js/2.4fabb7c9.chunk.js.LICENSE.txt",
+    "static/media/bannerspoon.jpg": "/GMCB-react-conversion/static/media/bannerspoon.f67e2c95.jpg",
+    "static/media/tab.png": "/GMCB-react-conversion/static/media/tab.d8eebce9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01831299.js",
+    "static/js/2.4fabb7c9.chunk.js",
+    "static/css/main.24747423.chunk.css",
+    "static/js/main.73b2b591.chunk.js"
+  ]
+}
