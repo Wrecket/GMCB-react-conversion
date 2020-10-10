@@ -6,6 +6,7 @@
     transition: 3s all;
     background-image: url("https://images.pexels.com/photos/4040540/pexels-photo-4040540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-attachment: fixed;
+    height: 100vh;
 }
 
 .recipe__input {
