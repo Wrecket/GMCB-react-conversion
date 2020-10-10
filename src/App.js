@@ -5,11 +5,9 @@ import RecipeList from './Component/RecipeList/RecipeList';
 import { Switch, Route, BrowserRouter } from 'react-router-dom'
 import RecipeItemDetails from './Component/RecipeItemDetails/RecipeItemDetails';
 
-
-
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
     <div className="App">
       <Navbar/>
