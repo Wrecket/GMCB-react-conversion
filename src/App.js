@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Route exact path="/" component={RecipeList} />
-      <Route path="/recipes" component={RecipeList} />
-      <Route path="/recipes/:id" component={RecipeItemDetails} />
+      <Route exact path="/recipes" component={RecipeList} />
+      <Route exact path="/recipes/:id" component={RecipeItemDetails} />
     </div>
     </Switch>
     </BrowserRouter>
