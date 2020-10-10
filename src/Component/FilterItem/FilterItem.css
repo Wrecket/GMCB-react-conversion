@@ -5,6 +5,11 @@
     margin-right: 3rem;
     margin-top: 2rem;
     position: relative;
+    transition: .5s all;
+}
+
+.welcome__menu-box-outer:hover {
+    transform: scale(1.05);
 }
 
 .welcome__menu-box-inner {
