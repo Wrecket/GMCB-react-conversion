@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GMCB-react-conversion/static/css/main.a776e32b.chunk.css",
+    "main.css": "/GMCB-react-conversion/static/css/main.cc18b7ba.chunk.css",
     "main.js": "/GMCB-react-conversion/static/js/main.e8c87aa7.chunk.js",
     "main.js.map": "/GMCB-react-conversion/static/js/main.e8c87aa7.chunk.js.map",
     "runtime-main.js": "/GMCB-react-conversion/static/js/runtime-main.01831299.js",
@@ -8,9 +8,9 @@
     "static/js/2.c04779eb.chunk.js": "/GMCB-react-conversion/static/js/2.c04779eb.chunk.js",
     "static/js/2.c04779eb.chunk.js.map": "/GMCB-react-conversion/static/js/2.c04779eb.chunk.js.map",
     "index.html": "/GMCB-react-conversion/index.html",
-    "precache-manifest.8c889aec3f37750bec47a718a7e08230.js": "/GMCB-react-conversion/precache-manifest.8c889aec3f37750bec47a718a7e08230.js",
+    "precache-manifest.111be7ba47977cc19259889ff44d5bbf.js": "/GMCB-react-conversion/precache-manifest.111be7ba47977cc19259889ff44d5bbf.js",
     "service-worker.js": "/GMCB-react-conversion/service-worker.js",
-    "static/css/main.a776e32b.chunk.css.map": "/GMCB-react-conversion/static/css/main.a776e32b.chunk.css.map",
+    "static/css/main.cc18b7ba.chunk.css.map": "/GMCB-react-conversion/static/css/main.cc18b7ba.chunk.css.map",
     "static/js/2.c04779eb.chunk.js.LICENSE.txt": "/GMCB-react-conversion/static/js/2.c04779eb.chunk.js.LICENSE.txt",
     "static/media/bannerspoon.jpg": "/GMCB-react-conversion/static/media/bannerspoon.f67e2c95.jpg",
     "static/media/tab.png": "/GMCB-react-conversion/static/media/tab.d8eebce9.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.01831299.js",
     "static/js/2.c04779eb.chunk.js",
-    "static/css/main.a776e32b.chunk.css",
+    "static/css/main.cc18b7ba.chunk.css",
     "static/js/main.e8c87aa7.chunk.js"
   ]
 }
