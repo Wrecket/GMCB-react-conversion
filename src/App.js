@@ -8,11 +8,13 @@ import RecipeItemDetails from './Component/RecipeItemDetails/RecipeItemDetails';
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <div className="App">
-      <Navbar/>
-      <Route exact path="/" component={RecipeList} />
-      <Route exact path="/recipes/:id" component={RecipeItemDetails} />
-    </div>
+      <Switch>
+        <div className="App">
+          <Navbar/>
+          <Route exact path="/" component={RecipeList} />
+          <Route path="/recipes/:id" component={RecipeItemDetails} />
+        </div>
+      </Switch>
     </BrowserRouter>
   );
 }
