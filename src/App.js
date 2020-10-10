@@ -13,7 +13,7 @@ function App() {
       <Navbar/>
       <Route exact path="/" component={RecipeList} />
       <Route exact path="/recipes" component={RecipeList} />
-      <Route exact path="/recipes/:id" component={RecipeItemDetails} />
+      <Route path="/recipes/:id" component={RecipeItemDetails} />
     </div>
     </Switch>
     </BrowserRouter>
