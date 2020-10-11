@@ -59,7 +59,6 @@ class RecipeList extends React.Component {
                                 <button className="check btn btn-secondary" id="" onClick={this.check}>All</button>
                             </div>
                             </div>
-                            <div className="update"></div>
                     </div>
                     <div className="recipe container-fluid pl-5">
                         {filteredRecipes.map((recipe) => <RecipeItem key={recipe.id} recipe={recipe} />)}
