@@ -33,10 +33,11 @@
     margin-right: 1rem;
     margin-top: 1rem;
     border: none;
-    opacity: 0.5;
+    opacity: 1;
     transition: 1s all;
 }
 
-.check:hover {
-    opacity: 1;
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary {
+    color: #fff;
+    background-color: #ca7f38;
 }

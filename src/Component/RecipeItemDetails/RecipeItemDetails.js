@@ -49,7 +49,7 @@ const RecipeItemDetails = (props) => {
         <div className="RecipeItemDetails-d">
            <div className=" recipe__menu-box-outer-d container shadow">
                <img src={tab} alt="filing tab" className="tab"></img>
-               <p className="font tab__text">Recipes</p>
+               <Link to="/ /recipes"><p className="font tab__text">Recipes</p></Link>
            <Link to="/"><h2 className="recipe__logo font">Grandma's Cookbook.</h2></Link>
                 <div className="btn-wrap container">
                     {PrevButton()}  
@@ -65,7 +65,7 @@ const RecipeItemDetails = (props) => {
                                     <p className="recipe__desc-inner-text">{`Temperature: ${recipe.temperature}`}</p>
                                 </div>
                             </div>
-                            <div className="recipe__ingredients">
+                            <div className="recipe__ingredients pl-4">
                                 <h3 className="font brown">Ingredients:</h3>
                                 <ul className="recipe__list">
                                     {
@@ -74,7 +74,7 @@ const RecipeItemDetails = (props) => {
                                 </ul>   
                             </div>
                             </div>
-                            <div className="recipe__method mt-3">
+                            <div className="recipe__method mt-3 pl-4">
                                 <h3 className="font mt-3 brown">Method:</h3>
                                 <ul className="recipe__list">
                                     {
