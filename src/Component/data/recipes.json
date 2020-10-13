@@ -7,7 +7,7 @@
         "image"       : "https://images.pexels.com/photos/4040806/pexels-photo-4040806.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "90",
         "temperature": "Gas 4/160 Deg",
-        "category" : "cake"
+        "category" : "cakes"
     },
 
     {
@@ -18,7 +18,7 @@
         "image"       : "https://images.pexels.com/photos/963755/pexels-photo-963755.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "60/90 mins",
         "temperature": "Gas 4/160 Deg",
-        "category" : "cake"
+        "category" : "cakes"
     },
 
     {
@@ -29,7 +29,7 @@
         "image"       : "https://images.pexels.com/photos/1161547/pexels-photo-1161547.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "45 mins",
         "temperature": "Gas 4/160 Deg",
-        "category" : "cake"
+        "category" : "cakes"
     },
 
     {
@@ -40,7 +40,7 @@
         "image"       : "https://images.pexels.com/photos/1055271/pexels-photo-1055271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "20 mins",
         "temperature": "Gas 4/180 Deg",
-        "category" : "dessert"
+        "category" : "desserts"
     },
 
     {
@@ -52,7 +52,7 @@
         "image"       : "https://images.pexels.com/photos/3611496/pexels-photo-3611496.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "25 mins",
         "temperature": "Gas 4/180 Deg",
-        "category" : "dessert"
+        "category" : "desserts"
         
     },
 
@@ -64,7 +64,7 @@
         "image"       : "https://images.pexels.com/photos/4408551/pexels-photo-4408551.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "15 mins",
         "temperature" : "Gas 6/200 Deg",
-        "category"    : "main"
+        "category"    : "mains"
     },
 
     {
@@ -75,7 +75,7 @@
         "image"       : "https://images.pexels.com/photos/757292/pexels-photo-757292.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time"       : "30 mins",
         "temperature" : "N/A",
-        "category"    : "starter" 
+        "category"    : "starters" 
     },
 
     {
@@ -86,7 +86,7 @@
         "image"       : "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time"        : "20 mins",
         "temperature" : "N/A",
-        "category"    : "main" 
+        "category"    : "mains" 
     },
 
     {
@@ -97,7 +97,7 @@
         "image"       : "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "20 mins",
         "temperature": "N/A",
-        "category"    : "main"
+        "category"    : "mains"
     },
 
     {
@@ -108,7 +108,7 @@
         "image"       : "https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "8 mins",
         "temperature": "N/A",
-        "category"    : "main"
+        "category"    : "mains"
     },
 
     {
@@ -119,7 +119,7 @@
         "image"       : "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "15 mins",
         "temperature": "Gas 6/200 Deg",
-        "category" : "side"
+        "category" : "sides"
     },
 
     {
@@ -130,7 +130,7 @@
         "image"       : "https://images.pexels.com/photos/4047214/pexels-photo-4047214.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "15 mins",
         "temperature": "Gas 7",
-        "category" : "side"
+        "category" : "sides"
     },
 
     {
@@ -141,7 +141,7 @@
         "image"       : "https://images.pexels.com/photos/1448665/pexels-photo-1448665.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "4 mins",
         "temperature": "N/A",
-        "category" : "starter"
+        "category" : "starters"
     },
 
     {
@@ -152,7 +152,7 @@
         "image"       : "https://images.pexels.com/photos/109836/pexels-photo-109836.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "time" : "20 mins",
         "temperature": "Gas 6/200 Deg",
-        "category" : "starter"
+        "category" : "starters"
     }
 
     
