@@ -1,28 +1,54 @@
-.welcome__title-box {
-    border-top: 2px solid rgb(153, 87, 26);
-    border-bottom: 2px solid rgb(153, 87, 26);
-    width: 95%;
-    margin: 2rem 3rem;
+.welcome {
+    background-image: url("https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    height: 100vh;
 }
 
-.welcome__title-box-bottom {
-    border-top: 2px solid rgb(153, 87, 26);
-    border-bottom: 2px solid rgb(153, 87, 26);
-    width: 95%;
+.welcome__title {
+    font-size: 5rem;
+    z-index: 5;
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0.1rem;
+}
+
+.welcome__title-box {
+    text-align: center;
+    padding: 1rem;
+    margin-left: 5rem;
     height: 5rem;
-    margin: 2rem 3rem;
+    top: 0;
     position: relative;
 }
 
+.welcome__title-box-bottom {
+    width: 95%;
+    height: 5rem;
+    margin: 2rem 3rem;
+}
+
 .welcome__description {
-    color: rgb(211, 165, 123);
+    margin-left: 1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    background-color: white;
+    padding: 0 .5rem;
+    z-index: 1;
+    bottom: -.5rem;
+    left: 0;
+}
+
+.welcome__title-wrap {
+    position: relative;
 }
 
 .welcome__description-bottom {
-    color: rgb(211, 165, 123);
-    position: absolute;
+    color: black;
+    font-weight: bold;
     bottom: 0;
     right: 0;
+    text-align: right;
 }
 
 .welcome__menu-box {
