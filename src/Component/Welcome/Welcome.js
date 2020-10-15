@@ -60,12 +60,18 @@ const Welcome = () => {
     
     return ( 
         <div className="welcome">
+<<<<<<< HEAD
             <div className="padder"></div>
             <div className="container-fluid text-left welcome__title-box">
                 <h2 className="welcome__title font">Welcome.</h2>
                 <p className="welcome__description font"> Select a menu below</p>
+=======
+            <div className="container-fluid text-left welcome__title-box pl-0">
+                <h2 className="welcome__title font mt-2">Welcome.</h2>
+                <p className="welcome__description"> Please select a menu below</p>
+>>>>>>> parent of 745e6ca4... update
             </div>
-            <div className="container-fluid welcome__menu-box">
+            <div className="welcome__menu-box">
                 {filters.map((filter) => <Filteritem key={filter.id} filter={filter} />)}
             </div>
             <div className="padder"></div>
@@ -74,9 +80,13 @@ const Welcome = () => {
                 {Nrec()}
             </div>
             <div className="container-fluid welcome__title-box-bottom mt-5 pr-0">
+<<<<<<< HEAD
                 <h3 className="welcome__description-bottom-header font">All recipes</h3>
                 <p className="welcome__description-bottom font">are sourced by Grandma from all over the net, editted and perfected by her expert touch.</p>
             </div>
+=======
+                <p className="welcome__description-bottom mb-0">All recipes are sourced by Grandma from all over the net, editted and perfected by her expert touch.</p>
+>>>>>>> parent of 745e6ca4... update
             </div>
             
             

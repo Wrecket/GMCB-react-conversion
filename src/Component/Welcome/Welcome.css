@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 .welcome {
@@ -15,22 +16,29 @@
     color: rgb(145, 109, 85);
 }
 
+=======
+>>>>>>> parent of 745e6ca4... update
 .welcome__title-box {
-    text-align: center;
-    padding: 1rem;
-    margin-left: 5rem;
-    height: 5rem;
-    top: 0;
-    position: relative;
+    border-top: 2px solid rgb(153, 87, 26);
+    border-bottom: 2px solid rgb(153, 87, 26);
+    width: 95%;
+    margin: 2rem 3rem;
 }
 
 .welcome__title-box-bottom {
+    border-top: 2px solid rgb(153, 87, 26);
+    border-bottom: 2px solid rgb(153, 87, 26);
     width: 95%;
     height: 5rem;
+<<<<<<< HEAD
+=======
+    margin: 2rem 3rem;
+>>>>>>> parent of 745e6ca4... update
     position: relative;
 }
 
 .welcome__description {
+<<<<<<< HEAD
     margin-left: 1rem;
     font-weight: bold;
     color: rgb(0, 0, 0);
@@ -63,6 +71,16 @@
     bottom: -2rem;
     right: 40rem;
     color: rgb(145, 109, 85);
+=======
+    color: rgb(211, 165, 123);
+}
+
+.welcome__description-bottom {
+    color: rgb(211, 165, 123);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+>>>>>>> parent of 745e6ca4... update
 }
 
 .welcome__menu-box {

@@ -1,7 +1,12 @@
 .welcome__menu-box-outer {
     background-color: rgb(214, 194, 168);
+<<<<<<< HEAD
     height: 18rem !important;
     width: 18rem !important;
+=======
+    height: 30rem !important;
+    width: 30rem !important;
+>>>>>>> parent of 745e6ca4... update
     margin-right: 3rem;
     margin-top: 2rem;
     position: relative;
@@ -23,8 +28,13 @@
 
 .welcome__menu-box-inner {
     background-color: rgb(255, 255, 255);
+<<<<<<< HEAD
     height: 17.2rem !important;
     width: 17.2rem !important;
+=======
+    height: 28rem !important;
+    width: 28rem !important;
+>>>>>>> parent of 745e6ca4... update
     position: absolute;
     top: .4rem;
     left: .4rem;
