@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 .welcome {
@@ -18,6 +19,8 @@
 
 =======
 >>>>>>> parent of 745e6ca4... update
+=======
+>>>>>>> parent of 745e6ca4... update
 .welcome__title-box {
     border-top: 2px solid rgb(153, 87, 26);
     border-bottom: 2px solid rgb(153, 87, 26);
@@ -33,11 +36,15 @@
 <<<<<<< HEAD
 =======
     margin: 2rem 3rem;
+<<<<<<< HEAD
+>>>>>>> parent of 745e6ca4... update
+=======
 >>>>>>> parent of 745e6ca4... update
     position: relative;
 }
 
 .welcome__description {
+<<<<<<< HEAD
 <<<<<<< HEAD
     margin-left: 1rem;
     font-weight: bold;
@@ -76,10 +83,19 @@
 }
 
 .welcome__description-bottom {
+=======
+    color: rgb(211, 165, 123);
+}
+
+.welcome__description-bottom {
+>>>>>>> parent of 745e6ca4... update
     color: rgb(211, 165, 123);
     position: absolute;
     bottom: 0;
     right: 0;
+<<<<<<< HEAD
+>>>>>>> parent of 745e6ca4... update
+=======
 >>>>>>> parent of 745e6ca4... update
 }
 
