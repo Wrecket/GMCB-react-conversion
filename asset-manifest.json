@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/GMCB-react-conversion/static/css/main.a9419618.chunk.css",
-    "main.js": "/GMCB-react-conversion/static/js/main.56e71a7f.chunk.js",
-    "main.js.map": "/GMCB-react-conversion/static/js/main.56e71a7f.chunk.js.map",
+    "main.css": "/GMCB-react-conversion/static/css/main.2bd3aa68.chunk.css",
+    "main.js": "/GMCB-react-conversion/static/js/main.963e76f5.chunk.js",
+    "main.js.map": "/GMCB-react-conversion/static/js/main.963e76f5.chunk.js.map",
     "runtime-main.js": "/GMCB-react-conversion/static/js/runtime-main.01831299.js",
     "runtime-main.js.map": "/GMCB-react-conversion/static/js/runtime-main.01831299.js.map",
-    "static/js/2.09d64423.chunk.js": "/GMCB-react-conversion/static/js/2.09d64423.chunk.js",
-    "static/js/2.09d64423.chunk.js.map": "/GMCB-react-conversion/static/js/2.09d64423.chunk.js.map",
+    "static/js/2.fd975cce.chunk.js": "/GMCB-react-conversion/static/js/2.fd975cce.chunk.js",
+    "static/js/2.fd975cce.chunk.js.map": "/GMCB-react-conversion/static/js/2.fd975cce.chunk.js.map",
     "index.html": "/GMCB-react-conversion/index.html",
-    "precache-manifest.f6ffed6b06c8fd4fbd5d2dc7230de416.js": "/GMCB-react-conversion/precache-manifest.f6ffed6b06c8fd4fbd5d2dc7230de416.js",
+    "precache-manifest.d7dcb8a2c49e3d766a59151bb25e65a5.js": "/GMCB-react-conversion/precache-manifest.d7dcb8a2c49e3d766a59151bb25e65a5.js",
     "service-worker.js": "/GMCB-react-conversion/service-worker.js",
-    "static/css/main.a9419618.chunk.css.map": "/GMCB-react-conversion/static/css/main.a9419618.chunk.css.map",
-    "static/js/2.09d64423.chunk.js.LICENSE.txt": "/GMCB-react-conversion/static/js/2.09d64423.chunk.js.LICENSE.txt",
-    "static/media/bannerspoon.jpg": "/GMCB-react-conversion/static/media/bannerspoon.f67e2c95.jpg",
+    "static/css/main.2bd3aa68.chunk.css.map": "/GMCB-react-conversion/static/css/main.2bd3aa68.chunk.css.map",
+    "static/js/2.fd975cce.chunk.js.LICENSE.txt": "/GMCB-react-conversion/static/js/2.fd975cce.chunk.js.LICENSE.txt",
+    "static/media/bannerspoon.jpg": "/GMCB-react-conversion/static/media/bannerspoon.6bf22704.jpg",
     "static/media/tab.png": "/GMCB-react-conversion/static/media/tab.d8eebce9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.01831299.js",
-    "static/js/2.09d64423.chunk.js",
-    "static/css/main.a9419618.chunk.css",
-    "static/js/main.56e71a7f.chunk.js"
+    "static/js/2.fd975cce.chunk.js",
+    "static/css/main.2bd3aa68.chunk.css",
+    "static/js/main.963e76f5.chunk.js"
   ]
 }
