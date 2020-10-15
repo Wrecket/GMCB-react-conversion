@@ -38,12 +38,6 @@ class RecipeList extends React.Component {
             searchInput: e.target.id.toLowerCase()
         })
     }
-
-    componentDidMount() {
-        this.setState({
-            searchInput: this.props.match.params.filter
-        })
-    }
     
     render() {
         let filteredRecipes = this.state.recipes.filter(recipe => {

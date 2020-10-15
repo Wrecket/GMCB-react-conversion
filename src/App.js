@@ -11,12 +11,12 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
-        <React.Fragment>
+        <div className="App">
           <Navbar/>
           <Route exact path="/" component={Welcome} />
-          <Route exact path="/:filter/recipes" component={RecipeList} />
+          <Route exact path="/recipes" component={RecipeList} />
           <Route path="/recipes/:id" component={RecipeItemDetails} />
-        </React.Fragment>
+        </div>
       </Switch>
     </BrowserRouter>
   );
