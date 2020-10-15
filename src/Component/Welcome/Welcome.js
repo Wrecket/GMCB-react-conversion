@@ -1,8 +1,31 @@
 import React from 'react';
 import './Welcome.css'
 import Filteritem from '../FilterItem/FilterItem';
+import recipes from '../data/recipes.json'
+
+
+const Nrec = () => {
+    let newRecipe = recipes.filter(recipe => {
+        return recipe.id === (recipes.length) 
+    }) 
+    console.log(newRecipe[0])
+    return (
+        <div className="welcome__new-description-new-rec container-fluid">
+                <div className=" welcome__new-menu-box-outer">
+                        <div className="welcome__new-menu-box-inner">
+                            <img src={newRecipe[0].image} alt="mains" className="welcome__new-menu-box-img"/>
+                            <div className="welcome__new-menu-name-wrap">
+                                <h3 className="welcome__new-menu-box-img-text2 font">Newest Recipe:</h3>
+                                <h3 className="welcome__new-menu-box-img-text font">{newRecipe[0].name}</h3>
+                            </div>
+                        </div>
+                </div>
+            </div>
+      );
+    }
 
 const Welcome = () => {
+
     const filters = [
         {
             id: 1,
@@ -40,14 +63,23 @@ const Welcome = () => {
             <div className="padder"></div>
             <div className="container-fluid text-left welcome__title-box">
                 <h2 className="welcome__title font">Welcome.</h2>
-                <p className="welcome__description"> Select a menu below</p>
+                <p className="welcome__description font"> Select a menu below</p>
             </div>
             <div className="container-fluid welcome__menu-box">
                 {filters.map((filter) => <Filteritem key={filter.id} filter={filter} />)}
             </div>
-            <div className="container-fluid welcome__title-box-bottom mt-5 pr-0">
-                {/* <p className="welcome__description-bottom text-center mb-0">All recipes are sourced by Grandma from all over the net, editted and perfected by her expert touch.</p> */}
+            <div className="padder"></div>
+            <div className="d-flex">
+            <div className="welcome__new-rec">
+                {Nrec()}
             </div>
+            <div className="container-fluid welcome__title-box-bottom mt-5 pr-0">
+                <h3 className="welcome__description-bottom-header font">All recipes</h3>
+                <p className="welcome__description-bottom font">are sourced by Grandma from all over the net, editted and perfected by her expert touch.</p>
+            </div>
+            </div>
+            
+            
         </div>
      );
 }

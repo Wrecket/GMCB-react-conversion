@@ -1,7 +1,7 @@
 .welcome__menu-box-outer {
-    background-color: rgba(0, 0, 0, 0.705);
-    height: 15rem !important;
-    width: 15rem !important;
+    background-color: rgb(214, 194, 168);
+    height: 18rem !important;
+    width: 18rem !important;
     margin-right: 3rem;
     margin-top: 2rem;
     position: relative;
@@ -10,15 +10,24 @@
 
 .welcome__menu-box-outer:hover {
     transform: scale(1.05);
+    background-color: rgb(145, 109, 85);
+}
+
+.welcome__menu-name-wrap {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.295);
+    height:30%;
+    position: absolute;
+    bottom: 0;
 }
 
 .welcome__menu-box-inner {
     background-color: rgb(255, 255, 255);
-    height: 13rem !important;
-    width: 13rem !important;
+    height: 17.2rem !important;
+    width: 17.2rem !important;
     position: absolute;
-    top: 1rem;
-    left: 1rem;
+    top: .4rem;
+    left: .4rem;
     border-top-right-radius: 40%;
     border: 10px white solid;
     overflow: hidden;
@@ -39,8 +48,8 @@
 @media (max-width: 550px) {
     .welcome__menu-box-outer {
         background-color: rgb(214, 194, 168);
-        height: 20rem !important;
-        width: 20rem !important;
+        height: 16rem !important;
+        width: 16rem !important;
         margin-right: 3rem;
         margin-top: 2rem;
         position: relative;
@@ -48,11 +57,11 @@
     
     .welcome__menu-box-inner {
         background-color: rgb(255, 255, 255);
-        height: 18rem !important;
-        width: 18rem !important;
+        height: 15.2rem !important;
+        width: 15.2rem !important;
         position: absolute;
-        top: 1rem;
-        left: 1rem;
+        top: .4rem;
+        left: .4rem;
         border-top-right-radius: 40%;
         border: 10px white solid;
         overflow: hidden;
