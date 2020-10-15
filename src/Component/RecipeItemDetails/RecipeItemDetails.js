@@ -49,7 +49,7 @@ const RecipeItemDetails = (props) => {
         <div className="RecipeItemDetails-d">
            <div className=" recipe__menu-box-outer-d container shadow">
                <img src={tab} alt="filing tab" className="tab"></img>
-               <p className="font tab__text">Recipes</p>
+               <Link to="/%20/recipes/"><p className="font tab__text">Recipes</p></Link>
            <Link to="/"><h2 className="recipe__logo font">Grandma's Cookbook.</h2></Link>
                 <div className="btn-wrap container">
                     {PrevButton()}  
@@ -84,7 +84,7 @@ const RecipeItemDetails = (props) => {
                             </div>
                         </div>
                     </div>
-                    
+                    <div className="padder"></div> 
                                   
         </div>
      );

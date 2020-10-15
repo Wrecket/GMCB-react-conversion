@@ -5,8 +5,8 @@
     flex-wrap: wrap;
     transition: 3s all;
     background-image: url("https://images.pexels.com/photos/4040540/pexels-photo-4040540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-attachment: fixed;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .recipe__input {
@@ -40,4 +40,22 @@
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary {
     color: #fff;
     background-color: rgb(145, 109, 85);
+}
+
+
+@media (max-width: 550px) {
+    .recipe {
+        height: 150vh;
+    }
+
+    .recipe__input {
+        width: 90% !important;
+    }
+
+    .recipe__input-wrap-inner {
+        display: block;
+        flex-wrap: wrap;
+        padding-right: 0;
+
+    }
 }

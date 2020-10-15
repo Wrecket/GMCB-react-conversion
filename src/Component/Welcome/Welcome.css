@@ -1,7 +1,6 @@
 .welcome {
     background-image: url("https://images.pexels.com/photos/4040540/pexels-photo-4040540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-attachment: fixed;
-    height: 120vh;
 }
 .welcome__menu-box {
     display: flex;
@@ -28,8 +27,13 @@
     margin-left: 0;
 }
 
+.padder {
+    height: 50px;
+}
+
 @media (max-width: 550px) {
     .title-wrap {
-        width: 80%;
+        width: 100%;
     }
+    
 }

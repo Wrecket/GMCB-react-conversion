@@ -3,8 +3,7 @@ import './RecipeList.css';
 import recipes from '../data/recipes.json'
 import RecipeItem from '../RecipeItem/RecipeItem';
 
-class RecipeList extends React.Component {
-      
+class RecipeList extends React.Component { 
 
     constructor() {
         super()
@@ -38,6 +37,13 @@ class RecipeList extends React.Component {
             searchInput: e.target.id.toLowerCase()
         })
     }
+
+    componentDidMount(props) {
+        this.setState({
+            searchInput: this.props.match.params.filter
+        })
+    }
+    
     
     render() {
         let filteredRecipes = this.state.recipes.filter(recipe => {
@@ -60,11 +66,11 @@ class RecipeList extends React.Component {
                             </div>
                             </div>
                     </div>
-                    <div className="recipe container-fluid pl-5">
+                    <div className="recipe container-fluid pl-5 pb-5">
                         {filteredRecipes.map((recipe) => <RecipeItem key={recipe.id} recipe={recipe} />)}
                     </div>
-                </div>
-                        
+                    
+                </div>  
                     </div>; 
     }
 }
