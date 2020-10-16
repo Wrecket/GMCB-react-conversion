@@ -52,7 +52,7 @@
 
 @media (max-width: 550px) {
     .recipe {
-        height: 150vh;
+        height: 200vh;
     }
 
     .recipe__input {
@@ -68,7 +68,7 @@
     }
 
     .phantom-input {
-        height:12rem;
+        height:0
     }
 
     .check {
@@ -83,5 +83,6 @@
 
     .recipe__inputs {
         padding: 1rem 0 1rem 0;
+        position: static;
     }
 }

@@ -159,4 +159,7 @@
     .recipe__logo {
         left: 1rem;
     }
+    .phantom-details {
+        height:3rem;
+    }
 }
