@@ -1,106 +1,11 @@
 import React from 'react';
 import './Welcome.css'
 import Filteritem from '../FilterItem/FilterItem';
-import recipes from '../data/recipes.json'
-import {Link} from 'react-router-dom'
-
-
-const Nrec = () => {
-    let newRecipe = recipes.filter(recipe => {
-        return recipe.id === (recipes.length) 
-    }) 
-    return (
-        
-            <div className=" welcome__menu-box-outer newrec">
-                    <div className="welcome__menu-box-inner">
-                    <h2 className="welcome__new-recipe font">Newest Recipe</h2>
-                    <Link to={`/recipes/${recipes.length}`} id={newRecipe.name} className="recipe__link">
-                        <img src={newRecipe[0].image} alt={newRecipe[0].name} className="welcome__menu-box-img"/>
-                        <div className="welcome__menu-name-wrap">
-                            <h3 className="welcome__menu-box-img-text font">{newRecipe[0].name}</h3>
-                        </div>
-                    </Link>    
-                    </div>
-             </div>
-        
-      );
-    }
-
-    const Rrec = () => {
-        let random = Math.floor(Math.random() * (Math.floor(1+(recipes.length))))
-        let newRecipe = recipes.filter(recipe => {
-            return recipe.id === random
-        }) 
-        return (
-                <div className=" welcome__menu-box-outer newrec">
-                        <div className="welcome__menu-box-inner">
-                        <h2 className="welcome__new-recipe font">Random Recipe</h2>
-                        <Link to={`/recipes/${random}`} id={newRecipe.name} className="recipe__link">
-                            <img src={newRecipe[0].image} alt={newRecipe[0].name} className="welcome__menu-box-img"/>
-                            <div className="welcome__menu-name-wrap">
-                                <h3 className="welcome__menu-box-img-text font">{newRecipe[0].name}</h3>
-                            </div>
-                        </Link>    
-                        </div>
-                 </div>
-          );
-        }
-        const Frec = () => {
-            let newRecipe = recipes.filter(recipe => {
-                return recipe.id === 8
-            }) 
-            return (
-                
-                    <div className=" welcome__menu-box-outer newrec">
-                            <div className="welcome__menu-box-inner">
-                            <h2 className="welcome__new-recipe font">Featured Recipe</h2>
-                            <Link to={`/recipes/8`} id={newRecipe.name} className="recipe__link">
-                                <img src={newRecipe[0].image} alt={newRecipe[0].name} className="welcome__menu-box-img"/>
-                                <div className="welcome__menu-name-wrap">
-                                    <h3 className="welcome__menu-box-img-text font">{newRecipe[0].name}</h3>
-                                </div>
-                            </Link>    
-                            </div>
-                     </div>
-                
-              );
-            }
-        
-    
-
+import Frec from '../Frec/Frec';
+import Rrec from '../Rrec/Rrec';
+import Nrec from '../Nrec/Nrec';
+import filters from '../data/filters.json';
 const Welcome = () => {
-
-    const filters = [
-        {
-            id: 1,
-            name : "Mains",
-            image: "https://images.pexels.com/photos/2116094/pexels-photo-2116094.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            filter: "mains"
-        },
-        {
-            id: 2,
-            name : "Sides",
-            image: "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            filter: "sides"
-        },
-        {
-            id: 3,
-            name: "Desserts",
-            image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            filter: "desserts"
-        },
-        {
-            id: 4,
-            name: "Starters",
-            image: "https://images.pexels.com/photos/4173178/pexels-photo-4173178.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            filter: "starters"
-        },
-        {
-            id: 5,
-            name: "Cakes",
-            image : "https://images.pexels.com/photos/1120970/pexels-photo-1120970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            filter: "cakes"
-        }]
     
     return ( 
         <div className="welcome">
@@ -114,9 +19,9 @@ const Welcome = () => {
                 </div>    
                 <div className="welcome__menu-box container-fluid">
                     {filters.map((filter) => <Filteritem key={filter.id} filter={filter} />)}
-                    {Nrec()}
-                    {Rrec()}
-                    {Frec()}
+                    <Nrec/>
+                    <Rrec/>
+                    <Frec/>
                     
                 </div>
                 <div className="padder"></div>
