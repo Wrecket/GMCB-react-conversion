@@ -14,11 +14,14 @@
     border: none;
     box-shadow: 0 0 1px rgb(141, 108, 58);
     padding: .5rem;
+    
 }
 
 .recipe__inputs {
-    background-color: rgba(190, 162, 126, 0.342);
+    background-color: rgb(224, 214, 201);
     padding: 1.5rem;
+    position: fixed;
+    z-index: 50;
 }
 
 .recipe__input-wrap-inner {
@@ -42,6 +45,10 @@
     background-color: rgb(145, 109, 85);
 }
 
+.phantom-input {
+    height:8.6rem;
+}
+
 
 @media (max-width: 550px) {
     .recipe {
@@ -50,6 +57,7 @@
 
     .recipe__input {
         width: 90% !important;
+
     }
 
     .recipe__input-wrap-inner {
@@ -57,5 +65,23 @@
         flex-wrap: wrap;
         padding-right: 0;
 
+    }
+
+    .phantom-input {
+        height:12rem;
+    }
+
+    .check {
+        width: auto;
+        height: auto;
+        font-size: .5rem;
+    }
+
+    .recipe__input {
+        padding: .1rem!important;
+    }
+
+    .recipe__inputs {
+        padding: 1rem 0 1rem 0;
     }
 }

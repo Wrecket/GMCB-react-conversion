@@ -11,7 +11,8 @@
     background-image: url("https://images.pexels.com/photos/4040540/pexels-photo-4040540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     position: relative;
     background-attachment: fixed;
-    padding-top: 3.5rem;;
+    padding-top: 3.5rem;
+    height: 100vh;
 }
 
 .recipe__menu-box-inner-d {

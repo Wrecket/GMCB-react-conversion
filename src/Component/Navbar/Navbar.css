@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgba(0, 0, 0, 0.664);
+    background-color: rgb(78, 78, 78);
     padding: 1rem;
     overflow: hidden !important;
     width: 100%;
@@ -7,4 +7,9 @@
 
 .navbar__banner {
     overflow: hidden;
+}
+
+.phantom {
+    width: 100%;
+    height: 9.5rem;
 }

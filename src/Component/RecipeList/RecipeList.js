@@ -66,6 +66,7 @@ class RecipeList extends React.Component {
                             </div>
                             </div>
                     </div>
+                    <div className="phantom-input"></div>
                     <div className="recipe container-fluid pl-5 pb-5">
                         {filteredRecipes.map((recipe) => <RecipeItem key={recipe.id} recipe={recipe} />)}
                     </div>
