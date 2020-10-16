@@ -15,6 +15,10 @@
     height: 100vh;
 }
 
+.phantom-details {
+    height:7rem;
+}
+
 .recipe__menu-box-inner-d {
     background-color: rgb(255, 255, 255);
     height: 100% !important;

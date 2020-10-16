@@ -47,6 +47,7 @@ const RecipeItemDetails = (props) => {
 
     return ( 
         <div className="RecipeItemDetails-d">
+            <div className="phantom-details"></div>
            <div className=" recipe__menu-box-outer-d container shadow">
                <img src={tab} alt="filing tab" className="tab"></img>
                <Link to="/%20/recipes/"><p className="font tab__text">Recipes</p></Link>
