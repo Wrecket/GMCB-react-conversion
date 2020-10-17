@@ -162,4 +162,7 @@
     .phantom-details {
         height:3rem;
     }
+    .RecipeItemDetails-d {
+        height: 160vh;
+    }
 }

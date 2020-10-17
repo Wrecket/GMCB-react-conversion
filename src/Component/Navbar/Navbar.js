@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
     return ( 
         <div className="Navbar">
-            <div className="fixed-top">
+            <div className="fixer">
                 <nav className="navbar font navbar-expand-lg navbar-light">
                     <Link to="/"><img src={logo} alt="logo"/></Link>
                 </nav>

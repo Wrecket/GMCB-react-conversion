@@ -7,7 +7,21 @@
 .footer__text {
     position: absolute;
     bottom: 0;
-    right: 1rem;;
+    right: 1rem;
     font-weight: bold;
     color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+@media (max-width: 550px) {
+      
+    .footer {
+        position: static;
+    }
 }
