@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/GMCB-react-conversion/static/css/main.26c24ecb.chunk.css",
-    "main.js": "/GMCB-react-conversion/static/js/main.ff2cc90d.chunk.js",
-    "main.js.map": "/GMCB-react-conversion/static/js/main.ff2cc90d.chunk.js.map",
+    "main.css": "/GMCB-react-conversion/static/css/main.dcd0fd2d.chunk.css",
+    "main.js": "/GMCB-react-conversion/static/js/main.9b8773a8.chunk.js",
+    "main.js.map": "/GMCB-react-conversion/static/js/main.9b8773a8.chunk.js.map",
     "runtime-main.js": "/GMCB-react-conversion/static/js/runtime-main.01831299.js",
     "runtime-main.js.map": "/GMCB-react-conversion/static/js/runtime-main.01831299.js.map",
-    "static/js/2.fd975cce.chunk.js": "/GMCB-react-conversion/static/js/2.fd975cce.chunk.js",
-    "static/js/2.fd975cce.chunk.js.map": "/GMCB-react-conversion/static/js/2.fd975cce.chunk.js.map",
+    "static/js/2.ee9bf541.chunk.js": "/GMCB-react-conversion/static/js/2.ee9bf541.chunk.js",
+    "static/js/2.ee9bf541.chunk.js.map": "/GMCB-react-conversion/static/js/2.ee9bf541.chunk.js.map",
     "index.html": "/GMCB-react-conversion/index.html",
-    "precache-manifest.b34297bcc57b689af9d3fe45539a9033.js": "/GMCB-react-conversion/precache-manifest.b34297bcc57b689af9d3fe45539a9033.js",
+    "precache-manifest.96b4a5eb6321b2a7401c12463c78b148.js": "/GMCB-react-conversion/precache-manifest.96b4a5eb6321b2a7401c12463c78b148.js",
     "service-worker.js": "/GMCB-react-conversion/service-worker.js",
-    "static/css/main.26c24ecb.chunk.css.map": "/GMCB-react-conversion/static/css/main.26c24ecb.chunk.css.map",
-    "static/js/2.fd975cce.chunk.js.LICENSE.txt": "/GMCB-react-conversion/static/js/2.fd975cce.chunk.js.LICENSE.txt",
+    "static/css/main.dcd0fd2d.chunk.css.map": "/GMCB-react-conversion/static/css/main.dcd0fd2d.chunk.css.map",
+    "static/js/2.ee9bf541.chunk.js.LICENSE.txt": "/GMCB-react-conversion/static/js/2.ee9bf541.chunk.js.LICENSE.txt",
     "static/media/bannerspoon.jpg": "/GMCB-react-conversion/static/media/bannerspoon.6bf22704.jpg",
     "static/media/tab.png": "/GMCB-react-conversion/static/media/tab.d8eebce9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.01831299.js",
-    "static/js/2.fd975cce.chunk.js",
-    "static/css/main.26c24ecb.chunk.css",
-    "static/js/main.ff2cc90d.chunk.js"
+    "static/js/2.ee9bf541.chunk.js",
+    "static/css/main.dcd0fd2d.chunk.css",
+    "static/js/main.9b8773a8.chunk.js"
   ]
 }
