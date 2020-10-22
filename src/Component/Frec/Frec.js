@@ -17,7 +17,6 @@ const Frec = () => {
                         <div className="welcome__menu-name-wrap">
                             <h3 className="welcome__menu-box-img-text font">{newRecipe[0].name}</h3>
                         </div>
-                        <div className="Finnik"></div>
                     </Link>    
                     </div>
              </div>
